@@ -62,3 +62,50 @@ Yes, it is always necessary to hav ea semicolon at the end of a field
 declaration.
 
 #17 private int status
+
+#18
+It belongs to the class Student
+
+#19
+2 paramaters, being String and double.
+
+#20
+
+#21
+public Pet (String petsName){
+    Name = getName
+}
+
+#22
+
+#23
+
+#24
+"How much money is currently in the machine?"
+
+#25
+Its name can be different than its associated fild.
+
+#26
+
+#27
+It says "missing return statement"
+
+#28
+They have different types
+getPrice: int
+printTicket: void
+
+#29
+No they don't have return statements as they are storing a value and 
+that value is being stored into another statement so it can be printed 
+elsewhere
+
+#30 
+The original value of balance was 0
+I put 1000 in insertMoney and the new value of balance is now 1000.
+
+#31
+increaseScore
+
+#32
