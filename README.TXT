@@ -109,3 +109,69 @@ I put 1000 in insertMoney and the new value of balance is now 1000.
 increaseScore
 
 #32
+It is a mutator, as when you call it, it changes the state of the Student
+object by increasing the number of credits inside.  
+Ex Student starts with 0 creds, after calling addCredits(10), student now has 10 credits
+
+#33
+
+#34 
+public void setAge(int currentAge) {
+    age = currentAge;
+}
+
+35.
+public void setAlive(boolean aliveStatus){
+    alive = aliveStatus;
+}
+
+36.
+
+37. 
+My cat has green eyes.
+
+38. 
+ public void insertMoney(int amount)
+    {
+        balance = balance + amount;
+    }
+I also put this in the TicketMachine itself as I didn't know
+whether you wanted me to answer it here or on the source code
+
+39.
+It would literally print # price cents everytime, it wouldn't 
+return the price of the ticket it would literaly put price.
+
+40.
+It would also print the same thing as question 39.
+
+41.
+
+public void showPrice(){
+ System.out.println("The price of a ticket is " + price + " cents.");
+}
+
+42.
+No they are different, as their TicketMachine prices are different they
+display the price of the ticket according to its ticket price
+
+43.
+It prints the same output as before. %d is replace by the int value of price,
+%n moves to a new line, like println.
+
+44.
+The value of price is fixed at 1000 despite trying to change the initial value of it
+when prompted to.
+
+45.
+I did it on the source code and the one with a set price, its price doesn't change
+and the other one I'm able to set a value of my choosing.
+
+46.
+public void empty()
+{
+    total = 0;
+}
+
+No paramaters needed as it only affects the total field.
+And it is a mutator, as it only changes the state of total to zero.
