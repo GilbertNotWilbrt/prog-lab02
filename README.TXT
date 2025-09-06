@@ -24,7 +24,17 @@ change/refund.
 #5 The difference is that it states that it is a different int value than
 the original ticket machine I originally made.
 
-#6
+#6 
+public class Student 
+{
+    //fields, constructors, and methods
+}
+
+public class LabClass
+{
+    //fields, constructors & methods
+}
+
 
 #7 As Java reads code from left to right, it wouldn't recognize public being first
 which it has to be as public declares it to be there.
@@ -70,6 +80,8 @@ It belongs to the class Student
 2 paramaters, being String and double.
 
 #20
+Yes, the constructor's parameters will need to be stored somewhere persistent.
+In fields like String and int.
 
 #21
 public Pet (String petsName){
@@ -77,8 +89,11 @@ public Pet (String petsName){
 }
 
 #22
+public Date(String month, int day, int year)
 
 #23
+The differences are their names and the method returns, getPrice returns price
+getBalance, well returns balance.
 
 #24
 "How much money is currently in the machine?"
@@ -87,6 +102,10 @@ public Pet (String petsName){
 Its name can be different than its associated fild.
 
 #26
+public int getTotal()
+{
+    return total;
+}
 
 #27
 It says "missing return statement"
@@ -115,6 +134,14 @@ Ex Student starts with 0 creds, after calling addCredits(10), student now has 10
 
 #33
 
+/**
+* Reduce price by the given amount.
+*/
+public void discount(int amount)
+{
+    price = price - amount;
+}    
+
 #34 
 public void setAge(int currentAge) {
     age = currentAge;
@@ -126,7 +153,8 @@ public void setAlive(boolean aliveStatus){
 }
 
 36.
-
+When you create a TicketMachine object and open inspector
+The price field will be 0, no matter the value you put.
 37. 
 My cat has green eyes.
 
@@ -146,7 +174,6 @@ return the price of the ticket it would literaly put price.
 It would also print the same thing as question 39.
 
 41.
-
 public void showPrice(){
  System.out.println("The price of a ticket is " + price + " cents.");
 }
